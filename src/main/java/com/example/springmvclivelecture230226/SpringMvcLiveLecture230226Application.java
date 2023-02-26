@@ -1,5 +1,6 @@
 package com.example.springmvclivelecture230226;
 
+import com.example.springmvclivelecture230226.controller.LegacyController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
