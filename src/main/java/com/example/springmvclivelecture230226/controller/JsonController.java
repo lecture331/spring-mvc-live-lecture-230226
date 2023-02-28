@@ -20,7 +20,7 @@ public class JsonController {
 
     // 강의 생성 요청
     @PostMapping("/create")
-    public Course helloRequestPath(@RequestBody Course course) {
+    public Course createCourse(@RequestBody Course course) {
         System.out.println(course.toString());
         return courseList.setCourseList(course);
     }
